@@ -11,9 +11,9 @@ public class Paging extends BaseObject {
 
     private int page;
 
-    private int totalpage;
+    private int totalPage;
 
-    private long totalrecord;
+    private long totalRecord;
 
     public Paging() {
     }
@@ -26,20 +26,19 @@ public class Paging extends BaseObject {
         this.page = page;
     }
 
-    public int getTotalpage() {
-        return totalpage;
+    public int getTotalPage() {
+        return totalPage;
     }
 
-    public void setTotalpage(int totalpage) {
-        this.totalpage = totalpage;
+    public void setTotalPage(int totalPage) {
+        this.totalPage = totalPage;
     }
 
-    public long getTotalrecord() {
-        return totalrecord;
+    public long getTotalRecord() {
+        return totalRecord;
     }
 
-    public void setTotalrecord(long totalrecord) {
-        this.totalrecord = totalrecord;
+    public void setTotalRecord(long totalRecord) {
+        this.totalRecord = totalRecord;
     }
-
 }

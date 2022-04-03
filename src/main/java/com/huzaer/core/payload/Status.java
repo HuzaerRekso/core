@@ -29,45 +29,45 @@ public class Status extends BaseObject {
     public Status() {
     }
 
-    public Status(String responsecode, String responsedesc) {
-        this.responsecode = responsecode;
-        this.responsedesc = responsedesc;
+    public Status(String responseCode, String responseDesc) {
+        this.responseCode = responseCode;
+        this.responseDesc = responseDesc;
     }
 
-    public Status(String responsecode, String responsedesc, String responsemessage) {
-        this.responsecode = responsecode;
-        this.responsedesc = responsedesc;
-        this.responsemessage = responsemessage;
+    public Status(String responseCode, String responseDesc, String responseMessage) {
+        this.responseCode = responseCode;
+        this.responseDesc = responseDesc;
+        this.responseMessage = responseMessage;
     }
 
-    private String responsecode;
+    private String responseCode;
 
-    private String responsedesc;
+    private String responseDesc;
 
-    private String responsemessage;
+    private String responseMessage;
 
-    public String getResponsecode() {
-        return responsecode;
+    public String getResponseCode() {
+        return responseCode;
     }
 
-    public void setResponsecode(String responsecode) {
-        this.responsecode = responsecode;
+    public void setResponseCode(String responseCode) {
+        this.responseCode = responseCode;
     }
 
-    public String getResponsedesc() {
-        return responsedesc;
+    public String getResponseDesc() {
+        return responseDesc;
     }
 
-    public void setResponsedesc(String responsedesc) {
-        this.responsedesc = responsedesc;
+    public void setResponseDesc(String responseDesc) {
+        this.responseDesc = responseDesc;
     }
 
-    public String getResponsemessage() {
-        return responsemessage;
+    public String getResponseMessage() {
+        return responseMessage;
     }
 
-    public void setResponsemessage(String responsemessage) {
-        this.responsemessage = responsemessage;
+    public void setResponseMessage(String responseMessage) {
+        this.responseMessage = responseMessage;
     }
 
     public static Status DATA_ALREADY_EXIST(String message) {

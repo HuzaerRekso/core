@@ -26,7 +26,7 @@ public class ApplicationException extends RuntimeException {
     }
 
     public ApplicationException(Status status) {
-        super(status.getResponsemessage());
+        super(status.getResponseMessage());
         this.status = status;
     }
 }
