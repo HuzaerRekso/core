@@ -4,6 +4,13 @@ import com.huzaer.core.exception.ApplicationException;
 import com.huzaer.core.payload.Status;
 import org.springframework.util.StringUtils;
 
+/**
+ * This class is a base for basic validation
+ *
+ * @author  Mohammad Huzaer Rekso Jiwo
+ * @version 0.1
+ * @since   2022-04-02
+ */
 public class BaseValidator {
 
     public static final String _REGEX_ALPHABETH_SPACE = "[A-Za-z ]*";
