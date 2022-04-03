@@ -5,7 +5,7 @@ import com.huzaer.core.payload.Status;
 import org.springframework.util.StringUtils;
 
 /**
- * This class is a base for basic validation
+ * This class is a used for a base of basic validation
  *
  * @author  Mohammad Huzaer Rekso Jiwo
  * @version 0.1
